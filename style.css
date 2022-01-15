@@ -160,3 +160,14 @@ footer{
     padding: 50px 0;
     text-align: center;
 }
+.footer h3{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+.footer p{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
