@@ -56,6 +56,10 @@ ul{
     background: #E02C6D;
     color: #fff;
 }
+#top:hover .topimage{
+    transform: rotate(180deg);
+    transition: transform 5s ease-in-out 0.3s;
+}
 /* Top part end */
 .alllogos{
     display: flex;
@@ -84,6 +88,8 @@ ul{
     height: 450px;
     padding: 20px;
     background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 30px rgb(241, 238, 238);
 }
 .itemblog img{
     width: 300px;
