@@ -128,6 +128,7 @@ ul{
     display: grid;
     justify-content: flex-end;
     grid-gap: 5px;
+    padding-right: 5%;
 }
 .seemore a{
     
@@ -253,6 +254,8 @@ footer{
        align-items: center;
        grid-template-columns:repeat(4, 1fr) ;
        justify-content: space-around;
+       border-top: none;
+       border-bottom: none;
    }
 /* Popular Collection start */
    .single-collection{
