@@ -119,10 +119,37 @@ ul{
     line-height: 143%;
     letter-spacing: 1.8%;
 }
+.seemore{
+    display: grid;
+    justify-content: flex-end;
+    grid-gap: 5px;
+}
+.seemore a{
+    
+    color: #E02C6D
+}
 .join-now{
     display: flex;
     grid-gap: 150px;
     padding: 100px 0;
+    margin-right: 150px;
+}
+.text{
+    padding: 30px 20px;
+}
+.text h1{
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 60px;
+    margin: 0;
+}
+.text p, a{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+}
+.text a{
+    line-height: auto;
 }
 .join-now .button{
     border-radius: 0;
