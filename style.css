@@ -171,3 +171,14 @@ footer{
     line-height: 24px;
     margin: 0;
 }
+.icon{
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.icon a{
+    width: 32px;
+    height: 32px;
+    color: #fff;
+}
