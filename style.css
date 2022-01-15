@@ -232,9 +232,8 @@ footer{
     text-align: center;
 }
    .flex{
-       display: grid;
-       grid-template-columns: repeat(1, 100%);
-       grid-gap: 50px;
+    flex-direction:column;
+       grid-gap: 10px;
    }
    .topimage img{
        width: 90%;
@@ -260,10 +259,12 @@ footer{
        grid-template-columns: repeat(1, 1fr);
        grid-gap: 0;
    }
+   .seemore{
+       padding-right: 10%;
+   }
    /* join now End */
    .join-now{
-       display: grid;
-       grid-template-columns: repeat(1, 1fr);
+    flex-direction:column;
    }
    .text{
        padding: 25px;
